@@ -98,7 +98,6 @@ Optional:
 ZMQ dependencies:
 
     sudo apt-get install libzmq3-dev (provides ZMQ API 4.x)
-    sudo apt-get install python-zmq (only required for running RPC tests)
 
 Dependencies for the GUI: Ubuntu & Debian
 -----------------------------------------
