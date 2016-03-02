@@ -55,7 +55,8 @@ submit new unit tests for old code. Unit tests can be compiled and run
 
 There are also [regression and integration tests](/qa) of the RPC interface, written
 in Python, that are run automatically on the build server. 
-If the [dependencies](/qa) have been installed, these tests can be run with: `qa/pull-tester/rpc-tests.py`
+Once the dependencies at the previous link have been installed, 
+these tests can be run with: `qa/pull-tester/rpc-tests.py`
 
 The Travis CI system makes sure that every pull request is built for Windows
 and Linux, OSX, and that unit and sanity tests are automatically run.
